@@ -1,0 +1,19 @@
+[project]
+name = "traveldesigneragent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "FarhadGul", email = "your_actual_github_email@example.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai-agents>=0.0.16",
+]
+
+[project.scripts]
+traveldesigneragent = "traveldesigneragent:main"
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.9"]
+build-backend = "uv_build"
